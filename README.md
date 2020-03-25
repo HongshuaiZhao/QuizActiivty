@@ -14,5 +14,6 @@ startActivity(intent)
 7. 需要从子activity获取返回信息时，调用startActivityForResult（Intent intent,int requestCode）
 8. 实现子activity发送信息给父Activity，使用setResult（int resultCode,Intent data）。
 9. 最后onActivityResult(int,int,Intent)方法来处理返回结果
+10. 添加了一个动画效果，但是原理尚未学习。
 
 were used.
